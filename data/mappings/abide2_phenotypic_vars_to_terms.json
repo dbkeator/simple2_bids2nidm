@@ -1,0 +1,2109 @@
+{
+    "DD(variable='site_id')": {
+        "hasUnit": "",
+        "minValue": "",
+        "maxValue": "",
+        "label": "site identifier",
+        "description": "Number assigned to site",
+        "source_variable": "site_id",
+        "valueType": "http://www.w3.org/2001/XMLSchema#string",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='dx_group')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "diagnostic group",
+        "description": "diagnosis",
+        "source_variable": "dx_group",
+        "isAbout": {
+            "@id": "http://ncitt.ncit.nih.gov/Diagnosis",
+            "label": "Diagnosis"
+        },
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": {
+            "Autism": "1",
+            "Control": "2"
+        }
+    },
+    "DD(variable='age_at_scan')": {
+        "hasUnit": "years",
+        "minValue": "6",
+        "maxValue": "47",
+        "label": "age at scan",
+        "description": "Age at time of scan in years",
+        "source_variable": "age_at_scan",
+        "valueType": "http://www.w3.org/2001/XMLSchema#float",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://uri.interlex.org/ilx_0100400",
+            "label": "Age"
+        }
+    },
+    "DD(variable='sex')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "SEX",
+        "description": "subject gender",
+        "source_variable": "sex",
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": {
+            "Male": "1",
+            "Female": "2"
+        },
+        "isAbout": {
+            "@id": "http://uri.interlex.org/base/ilx_0101292",
+            "label": "Biological sex"
+        }
+    },
+    "DD(variable='handedness_category')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "handedness",
+        "description": "subject handedness category",
+        "source_variable": "handedness_category",
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": {
+            "Right": "R",
+            "Left": "L",
+            "Ambidexterous": "Ambi"
+        },
+        "isAbout": {
+            "@id": "http://purl.obolibrary.org/obo/PATO_0002201",
+            "label": "handedness"
+        }
+    },
+    "DD(variable='handedness_scores')": {
+        "hasUnit": "",
+        "minValue": "-100",
+        "maxValue": "100",
+        "label": "HANDEDNESS_SCORES",
+        "description": "subject handedness scores",
+        "source_variable": "handedness_scores",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://purl.obolibrary.org/obo/PATO_0002201",
+            "label": "handedness"
+        }
+    },
+    "DD(variable='fiq')": {
+        "hasUnit": "",
+        "minValue": "30",
+        "maxValue": "170",
+        "label": "FIQ",
+        "description": "Full IQ Standard Score",
+        "source_variable": "fiq",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://uri.interlex.org/base/ilx_0739365",
+            "label": "full intelligence quotient"
+        }
+    },
+    "DD(variable='viq')": {
+        "hasUnit": "",
+        "minValue": "31",
+        "maxValue": "169",
+        "label": "VIQ",
+        "description": "verbal intelligence score",
+        "source_variable": "viq",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://uri.interlex.org/base/ilx_0739359",
+            "label": "verbal intelligence quotient"
+        }
+    },
+    "DD(variable='piq')": {
+        "hasUnit": "",
+        "minValue": "31",
+        "maxValue": "166",
+        "label": "PIQ",
+        "description": "performance intelligence score",
+        "source_variable": "piq",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://uri.interlex.org/base/ilx_0739363",
+            "label": "performance intelligence quotient"
+        }
+    },
+    "DD(variable='fiq_test_type')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "FIQ_TEST_TYPE",
+        "description": "IQ test administered for full scale",
+        "source_variable": "fiq_test_type",
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": [
+            "DAS_II_SA",
+            "GIT",
+            "HAWIK",
+            "WAIS_III",
+            "WASI",
+            "WISC_III",
+            "WISC_III_DUTCH",
+            "WISC_IV_4_SUBTESTS",
+            "WISC_IV_FULL",
+            "WST"
+        ]
+    },
+    "DD(variable='viq_test_type')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "VIQ_TEST_TYPE",
+        "description": "IQ test administered for verbal IQ",
+        "source_variable": "viq_test_type",
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": [
+            "DAS_II_SA",
+            "GIT",
+            "HAWIK",
+            "PPVT",
+            "WAIS_III",
+            "WASI",
+            "WISC_III",
+            "WISC_III_DUTCH",
+            "WISC_IV_4",
+            "WISC_IV_FULL",
+            "WST"
+        ]
+    },
+    "DD(variable='piq_test_type')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "PIQ_TEST_TYPE",
+        "description": "IQ test administered for performance IQ",
+        "source_variable": "piq_test_type",
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": [
+            "DAS_II_SA",
+            "GIT",
+            "HAWIK",
+            "RAVENS",
+            "WAIS_III",
+            "WASI",
+            "WISC_III",
+            "WISC_III_DUTCH",
+            "WISC_IV_4_SUBTESTS",
+            "WISC_IV_FULL",
+            "WST"
+        ]
+    },
+    "DD(variable='adi_r_social_total_a')": {
+        "hasUnit": "",
+        "minValue": "0",
+        "maxValue": "30",
+        "label": "ADI_R_SOCIAL_TOTAL_A",
+        "description": "Reciprocal Social Interaction Subscore (A)Total for Autism Diagnostic Interview-Revised",
+        "source_variable": "adi_r_social_total_a",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_verbal_total_bv')": {
+        "hasUnit": "",
+        "minValue": "0",
+        "maxValue": "26",
+        "label": "ADI_R_VERBAL_TOTAL_BV",
+        "description": "Abnormalities in Communication Subscore (B) Total for Autism Diagnostic Interview-Revised",
+        "source_variable": "adi_r_verbal_total_bv",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_onset_total_d')": {
+        "hasUnit": "",
+        "minValue": "0",
+        "maxValue": "5",
+        "label": "ADI_R_ONSET_TOTAL_D",
+        "description": "Abnormality of Development Evident at or Before 36 Months Subscore (D) Total for Autism Diagnostic Interview-Revised",
+        "source_variable": "adi_r_onset_total_d",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_rsrch_reliable')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "ADI_R_RSRCH_RELIABLE",
+        "description": "Was ADI scored and administered by research reliable personnel?",
+        "source_variable": "adi_r_rsrch_reliable",
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": {
+            "not research reliable": "0",
+            "research reliable": "1"
+        }
+    },
+    "DD(variable='ados_module')": {
+        "hasUnit": "",
+        "minValue": "1",
+        "maxValue": "4",
+        "label": "ADOS_MODULE",
+        "description": "Autism Diagnostic Observation Schedule Module",
+        "source_variable": "ados_module",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='ados_rsrch_reliable')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "ADOS_RSRCH_RELIABLE",
+        "description": "Was ADOS scored and administered by research reliable personnel?",
+        "source_variable": "ados_rsrch_reliable",
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": {
+            "not research reliable": "0",
+            "research reliable": "1"
+        }
+    },
+    "DD(variable='srs_version')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "SRS_VERSION",
+        "description": "Social Responsiveness Scale Version",
+        "source_variable": "srs_version",
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": {
+            "child": "1",
+            "adult": "2"
+        }
+    },
+    "DD(variable='scq_total')": {
+        "hasUnit": "",
+        "minValue": "0",
+        "maxValue": "39",
+        "label": "SCQ_TOTAL",
+        "description": "Social communication questionaire total",
+        "source_variable": "scq_total",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='aq_total')": {
+        "hasUnit": "",
+        "minValue": "0",
+        "maxValue": "50",
+        "label": "AQ_TOTAL",
+        "description": "Total raw score of the autism quotient",
+        "source_variable": "aq_total",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='current_med_status')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "CURRENT_MED_STATUS",
+        "description": "Currently taking medications?",
+        "source_variable": "current_med_status",
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": {
+            "not taking any medications": "0",
+            "taking medication": "1"
+        }
+    },
+    "DD(variable='off_stimulants_at_scan')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "OFF_STIMULANTS_AT_SCAN",
+        "description": "Off stimulants 24 hours prior to scan?",
+        "source_variable": "off_stimulants_at_scan",
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": {
+            "No": "0",
+            "Yes": "1"
+        }
+    },
+    "DD(variable='eye_status_at_scan')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "EYE_STATUS_AT_SCAN",
+        "description": "Eye status during rest scan",
+        "source_variable": "eye_status_at_scan",
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": {
+            "Open": "1",
+            "Closed": "2"
+        }
+    },
+    "DD(variable='age_at_mprage')": {
+        "hasUnit": "years",
+        "minValue": "6.47",
+        "maxValue": "64",
+        "label": "AGE_AT_MPRAGE",
+        "description": "Age at anatomical scan in years",
+        "source_variable": "age_at_mprage",
+        "valueType": "http://www.w3.org/2001/XMLSchema#float",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='bmi')": {
+        "hasUnit": "",
+        "minValue": "15",
+        "maxValue": "40",
+        "label": "BMI",
+        "description": "Body mass index",
+        "source_variable": "bmi",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://uri.interlex.org/dicom/uris/terms/0010_1022",
+            "label": "Patient's Body Mass Index"
+        }
+    },
+    "DD(variable='vineland_receptive_v_scaled')": {
+        "hasUnit": "",
+        "minValue": "1",
+        "maxValue": "24",
+        "label": "VINELAND_RECEPTIVE_V_SCALED",
+        "description": "Vineland Adaptive Behavior Scales Receptive Language V Scaled Score",
+        "source_variable": "vineland_receptive_v_scaled",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://purl.org/nidash/nidm#BehavioralInstrument",
+            "label": "Behavioral Instrument"
+        }
+    },
+    "DD(variable='vineland_expressive_v_scaled')": {
+        "hasUnit": "",
+        "minValue": "1",
+        "maxValue": "24",
+        "label": "VINELAND_EXPRESSIVE_V_SCALED",
+        "description": "Vineland Adaptive Behavior Scales Expressive Language V Scaled Score",
+        "source_variable": "vineland_expressive_v_scaled",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://id.nlm.nih.gov/mesh/2018/M0000344",
+            "label": "Behavior, Adaptive"
+        }
+    },
+    "DD(variable='vineland_written_v_scaled')": {
+        "hasUnit": "",
+        "minValue": "1",
+        "maxValue": "24",
+        "label": "VINELAND_WRITTEN_V_SCALED",
+        "description": "Vineland Adaptive Behavior Scales Written Language V Scaled Score",
+        "source_variable": "vineland_written_v_scaled",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://id.nlm.nih.gov/mesh/2018/M0000344",
+            "label": "Behavior, Adaptive"
+        }
+    },
+    "DD(variable='vineland_communication_standard')": {
+        "hasUnit": "",
+        "minValue": "20",
+        "maxValue": "160",
+        "label": "VINELAND_COMMUNICATION_STANDARD",
+        "description": "Vineland Adaptive Behavior Scales Communication Standard Score",
+        "source_variable": "vineland_communication_standard",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://id.nlm.nih.gov/mesh/2018/M0000344",
+            "label": "Behavior, Adaptive"
+        }
+    },
+    "DD(variable='vineland_personal_v_scaled')": {
+        "hasUnit": "",
+        "minValue": "1",
+        "maxValue": "24",
+        "label": "VINELAND_PERSONAL_V_SCALED",
+        "description": "Vineland Adaptive Behavior Scales Personal DAily Living Skills V Scaled Score",
+        "source_variable": "vineland_personal_v_scaled",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://id.nlm.nih.gov/mesh/2018/M0000344",
+            "label": "Behavior, Adaptive"
+        }
+    },
+    "DD(variable='vineland_domestic_v_scaled')": {
+        "hasUnit": "",
+        "minValue": "1",
+        "maxValue": "24",
+        "label": "VINELAND_DOMESTIC_V_SCALED",
+        "description": "Vineland Adaptive Behavior Scales Domestic Daily Living Skills V Scaled Score",
+        "source_variable": "vineland_domestic_v_scaled",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://id.nlm.nih.gov/mesh/2018/M0000344",
+            "label": "Behavior, Adaptive"
+        }
+    },
+    "DD(variable='vineland_community_v_scaled')": {
+        "hasUnit": "",
+        "minValue": "1",
+        "maxValue": "24",
+        "label": "VINELAND_COMMUNITY_V_SCALED",
+        "description": "Vineland Adaptive Behavior Scales Community Daily Living Skills V Scaled Score",
+        "source_variable": "vineland_community_v_scaled",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://id.nlm.nih.gov/mesh/2018/M0000344",
+            "label": "Behavior, Adaptive"
+        }
+    },
+    "DD(variable='vineland_interpersonal_v_scaled')": {
+        "hasUnit": "",
+        "minValue": "1",
+        "maxValue": "24",
+        "label": "VINELAND_INTERPERSONAL_V_SCALED",
+        "description": "Vineland adpadtive behavior scales interpersonal relationsips V scaled score",
+        "source_variable": "vineland_interpersonal_v_scaled",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://id.nlm.nih.gov/mesh/2018/M0000344",
+            "label": "Behavior, Adaptive"
+        }
+    },
+    "DD(variable='vineland_play_v_scaled')": {
+        "hasUnit": "",
+        "minValue": "1",
+        "maxValue": "24",
+        "label": "VINELAND_PLAY_V_SCALED",
+        "description": "Vineland adaptive behavior scales play and leisure time V scaled score",
+        "source_variable": "vineland_play_v_scaled",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://id.nlm.nih.gov/mesh/2018/M0000344",
+            "label": "Behavior, Adaptive"
+        }
+    },
+    "DD(variable='vineland_coping_v_scaled')": {
+        "hasUnit": "",
+        "minValue": "1",
+        "maxValue": "24",
+        "label": "VINELAND_COPING_V_SCALED",
+        "description": "Vineland adaptive behavior scales coping skills V scaled score",
+        "source_variable": "vineland_coping_v_scaled",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://id.nlm.nih.gov/mesh/2018/M0000344",
+            "label": "Behavior, Adaptive"
+        }
+    },
+    "DD(variable='vineland_social_standard')": {
+        "hasUnit": "",
+        "minValue": "20",
+        "maxValue": "160",
+        "label": "VINELAND_SOCIAL_STANDARD",
+        "description": "Vineland adaptive behavior scales socialization standard score",
+        "source_variable": "vineland_social_standard",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://id.nlm.nih.gov/mesh/2018/M0000344",
+            "label": "Behavior, Adaptive"
+        }
+    },
+    "DD(variable='vineland_sum_scores')": {
+        "hasUnit": "",
+        "minValue": "76",
+        "maxValue": "480",
+        "label": "VINELAND_SUM_SCORES",
+        "description": "Sum of Vineland standard scores (Communication + Daily Living Skills + Socialization)",
+        "source_variable": "vineland_sum_scores",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://id.nlm.nih.gov/mesh/2018/M0000344",
+            "label": "Behavior, Adaptive"
+        }
+    },
+    "DD(variable='vineland_abc_standard')": {
+        "hasUnit": "",
+        "minValue": "20",
+        "maxValue": "160",
+        "label": "VINELAND_ABC_STANDARD",
+        "description": "Vineland adaptive behavior composite standard score",
+        "source_variable": "vineland_abc_standard",
+        "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+        "associatedWith": "NIDM",
+        "isAbout": {
+            "@id": "http://id.nlm.nih.gov/mesh/2018/M0000344",
+            "label": "Behavior, Adaptive"
+        }
+    },
+    "DD(variable='vineland_informant')": {
+        "minValue": "NA",
+        "maxValue": "NA",
+        "hasUnit": "NA",
+        "label": "VINELAND_INFORMANT",
+        "description": "Vineland adaptive behavior scales informant",
+        "source_variable": "vineland_informant",
+        "valueType": "http://www.w3.org/2001/XMLSchema#complexType",
+        "associatedWith": "NIDM",
+        "levels": {
+            "Parent": "1",
+            "Self": "2"
+        }
+    },
+    "DD(variable='participant_id')": {
+        "label": "participant_id",
+        "source_variable": "participant_id",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='ndar_guid')": {
+        "label": "ndar_guid",
+        "source_variable": "ndar_guid",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='pdd_dsm_iv_tr')": {
+        "label": "pdd_dsm_iv_tr",
+        "source_variable": "pdd_dsm_iv_tr",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='asd_dsm_5')": {
+        "label": "asd_dsm_5",
+        "source_variable": "asd_dsm_5",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_nonverbal_total_bv')": {
+        "label": "adi_r_nonverbal_total_bv",
+        "source_variable": "adi_r_nonverbal_total_bv",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_rrb_total_c')": {
+        "label": "adi_r_rrb_total_c",
+        "source_variable": "adi_r_rrb_total_c",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='ados_g_total')": {
+        "label": "ados_g_total",
+        "source_variable": "ados_g_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='ados_g_comm')": {
+        "label": "ados_g_comm",
+        "source_variable": "ados_g_comm",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='ados_g_social')": {
+        "label": "ados_g_social",
+        "source_variable": "ados_g_social",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='ados_g_stereo_behav')": {
+        "label": "ados_g_stereo_behav",
+        "source_variable": "ados_g_stereo_behav",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='ados_g_creativity')": {
+        "label": "ados_g_creativity",
+        "source_variable": "ados_g_creativity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='ados_2_socaffect')": {
+        "label": "ados_2_socaffect",
+        "source_variable": "ados_2_socaffect",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='ados_2_rrb')": {
+        "label": "ados_2_rrb",
+        "source_variable": "ados_2_rrb",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='ados_2_total')": {
+        "label": "ados_2_total",
+        "source_variable": "ados_2_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='ados_2_severity_total')": {
+        "label": "ados_2_severity_total",
+        "source_variable": "ados_2_severity_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_edition')": {
+        "label": "srs_edition",
+        "source_variable": "srs_edition",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_informant')": {
+        "label": "srs_informant",
+        "source_variable": "srs_informant",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_total_raw')": {
+        "label": "srs_total_raw",
+        "source_variable": "srs_total_raw",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_awareness_raw')": {
+        "label": "srs_awareness_raw",
+        "source_variable": "srs_awareness_raw",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_cognition_raw')": {
+        "label": "srs_cognition_raw",
+        "source_variable": "srs_cognition_raw",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_communication_raw')": {
+        "label": "srs_communication_raw",
+        "source_variable": "srs_communication_raw",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_motivation_raw')": {
+        "label": "srs_motivation_raw",
+        "source_variable": "srs_motivation_raw",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_mannerisms_raw')": {
+        "label": "srs_mannerisms_raw",
+        "source_variable": "srs_mannerisms_raw",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_total_t')": {
+        "label": "srs_total_t",
+        "source_variable": "srs_total_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_awareness_t')": {
+        "label": "srs_awareness_t",
+        "source_variable": "srs_awareness_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_cognition_t')": {
+        "label": "srs_cognition_t",
+        "source_variable": "srs_cognition_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_communication_t')": {
+        "label": "srs_communication_t",
+        "source_variable": "srs_communication_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_motivation_t')": {
+        "label": "srs_motivation_t",
+        "source_variable": "srs_motivation_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='srs_mannerisms_t')": {
+        "label": "srs_mannerisms_t",
+        "source_variable": "srs_mannerisms_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='scq_version')": {
+        "label": "scq_version",
+        "source_variable": "scq_version",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='nonasd_psydx_icd9code')": {
+        "label": "nonasd_psydx_icd9code",
+        "source_variable": "nonasd_psydx_icd9code",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='nonasd_psydx_label')": {
+        "label": "nonasd_psydx_label",
+        "source_variable": "nonasd_psydx_label",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='current_medication_name')": {
+        "label": "current_medication_name",
+        "source_variable": "current_medication_name",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='vineland_dailyliving_standard')": {
+        "label": "vineland_dailyliving_standard",
+        "source_variable": "vineland_dailyliving_standard",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='vineland_gross_v_scaled')": {
+        "label": "vineland_gross_v_scaled",
+        "source_variable": "vineland_gross_v_scaled",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='vineland_fine_v_scaled')": {
+        "label": "vineland_fine_v_scaled",
+        "source_variable": "vineland_fine_v_scaled",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='vineland_motor_standard')": {
+        "label": "vineland_motor_standard",
+        "source_variable": "vineland_motor_standard",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_6subscale_stereotyped')": {
+        "label": "rbsr_6subscale_stereotyped",
+        "source_variable": "rbsr_6subscale_stereotyped",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_6subscale_self-injurious')": {
+        "label": "rbsr_6subscale_self-injurious",
+        "source_variable": "rbsr_6subscale_self-injurious",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_6subscale_compulsive')": {
+        "label": "rbsr_6subscale_compulsive",
+        "source_variable": "rbsr_6subscale_compulsive",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_6subscale_ritualistic')": {
+        "label": "rbsr_6subscale_ritualistic",
+        "source_variable": "rbsr_6subscale_ritualistic",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_6subscale_sameness')": {
+        "label": "rbsr_6subscale_sameness",
+        "source_variable": "rbsr_6subscale_sameness",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_6subscale_restricted')": {
+        "label": "rbsr_6subscale_restricted",
+        "source_variable": "rbsr_6subscale_restricted",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_6subscale_total')": {
+        "label": "rbsr_6subscale_total",
+        "source_variable": "rbsr_6subscale_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_5subscale_stereotypic')": {
+        "label": "rbsr_5subscale_stereotypic",
+        "source_variable": "rbsr_5subscale_stereotypic",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_5subscale_self-injurious')": {
+        "label": "rbsr_5subscale_self-injurious",
+        "source_variable": "rbsr_5subscale_self-injurious",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_5subscale_compulsive')": {
+        "label": "rbsr_5subscale_compulsive",
+        "source_variable": "rbsr_5subscale_compulsive",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_5subscale_ritualistic')": {
+        "label": "rbsr_5subscale_ritualistic",
+        "source_variable": "rbsr_5subscale_ritualistic",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_5subscale_restricted')": {
+        "label": "rbsr_5subscale_restricted",
+        "source_variable": "rbsr_5subscale_restricted",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='rbsr_5subscale_total')": {
+        "label": "rbsr_5subscale_total",
+        "source_variable": "rbsr_5subscale_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_edition')": {
+        "label": "masc_edition",
+        "source_variable": "masc_edition",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_total_t')": {
+        "label": "masc_total_t",
+        "source_variable": "masc_total_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_t/r_t')": {
+        "label": "masc_t/r_t",
+        "source_variable": "masc_t/r_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_s/a_t')": {
+        "label": "masc_s/a_t",
+        "source_variable": "masc_s/a_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_physical_total_t')": {
+        "label": "masc_physical_total_t",
+        "source_variable": "masc_physical_total_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_per_t')": {
+        "label": "masc_per_t",
+        "source_variable": "masc_per_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_ac_t')": {
+        "label": "masc_ac_t",
+        "source_variable": "masc_ac_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_harm_total_t')": {
+        "label": "masc_harm_total_t",
+        "source_variable": "masc_harm_total_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_h/r_t')": {
+        "label": "masc_h/r_t",
+        "source_variable": "masc_h/r_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_pp_t')": {
+        "label": "masc_pp_t",
+        "source_variable": "masc_pp_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_social_total_t')": {
+        "label": "masc_social_total_t",
+        "source_variable": "masc_social_total_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_sep_t')": {
+        "label": "masc_sep_t",
+        "source_variable": "masc_sep_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_adi_t')": {
+        "label": "masc_adi_t",
+        "source_variable": "masc_adi_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='masc_inconsistency_score')": {
+        "label": "masc_inconsistency_score",
+        "source_variable": "masc_inconsistency_score",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_version')": {
+        "label": "brief_version",
+        "source_variable": "brief_version",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_informant')": {
+        "label": "brief_informant",
+        "source_variable": "brief_informant",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_inhibit_t')": {
+        "label": "brief_inhibit_t",
+        "source_variable": "brief_inhibit_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_shift_t')": {
+        "label": "brief_shift_t",
+        "source_variable": "brief_shift_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_emotional_t')": {
+        "label": "brief_emotional_t",
+        "source_variable": "brief_emotional_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_bri_t')": {
+        "label": "brief_bri_t",
+        "source_variable": "brief_bri_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_initiate_t')": {
+        "label": "brief_initiate_t",
+        "source_variable": "brief_initiate_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_working_t')": {
+        "label": "brief_working_t",
+        "source_variable": "brief_working_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_plan_t')": {
+        "label": "brief_plan_t",
+        "source_variable": "brief_plan_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_organization_t')": {
+        "label": "brief_organization_t",
+        "source_variable": "brief_organization_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_monitor_t')": {
+        "label": "brief_monitor_t",
+        "source_variable": "brief_monitor_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_mi_t')": {
+        "label": "brief_mi_t",
+        "source_variable": "brief_mi_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_gec_t')": {
+        "label": "brief_gec_t",
+        "source_variable": "brief_gec_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_inconsistency_score')": {
+        "label": "brief_inconsistency_score",
+        "source_variable": "brief_inconsistency_score",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='brief_negativity_score')": {
+        "label": "brief_negativity_score",
+        "source_variable": "brief_negativity_score",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_activities_t')": {
+        "label": "cbcl_6-18_activities_t",
+        "source_variable": "cbcl_6-18_activities_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_social_t')": {
+        "label": "cbcl_6-18_social_t",
+        "source_variable": "cbcl_6-18_social_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_school_t')": {
+        "label": "cbcl_6-18_school_t",
+        "source_variable": "cbcl_6-18_school_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_total_competence_t')": {
+        "label": "cbcl_6-18_total_competence_t",
+        "source_variable": "cbcl_6-18_total_competence_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_anxious_t')": {
+        "label": "cbcl_6-18_anxious_t",
+        "source_variable": "cbcl_6-18_anxious_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_withdrawn_t')": {
+        "label": "cbcl_6-18_withdrawn_t",
+        "source_variable": "cbcl_6-18_withdrawn_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_somatic_compaint_t')": {
+        "label": "cbcl_6-18_somatic_compaint_t",
+        "source_variable": "cbcl_6-18_somatic_compaint_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_social_problem_t')": {
+        "label": "cbcl_6-18_social_problem_t",
+        "source_variable": "cbcl_6-18_social_problem_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_thought_t')": {
+        "label": "cbcl_6-18_thought_t",
+        "source_variable": "cbcl_6-18_thought_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_attention_t')": {
+        "label": "cbcl_6-18_attention_t",
+        "source_variable": "cbcl_6-18_attention_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_rule_t')": {
+        "label": "cbcl_6-18_rule_t",
+        "source_variable": "cbcl_6-18_rule_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_aggressive_t')": {
+        "label": "cbcl_6-18_aggressive_t",
+        "source_variable": "cbcl_6-18_aggressive_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_internal_t')": {
+        "label": "cbcl_6-18_internal_t",
+        "source_variable": "cbcl_6-18_internal_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_external_t')": {
+        "label": "cbcl_6-18_external_t",
+        "source_variable": "cbcl_6-18_external_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_total_problem_t')": {
+        "label": "cbcl_6-18_total_problem_t",
+        "source_variable": "cbcl_6-18_total_problem_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_affective_t')": {
+        "label": "cbcl_6-18_affective_t",
+        "source_variable": "cbcl_6-18_affective_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_anxiety_t')": {
+        "label": "cbcl_6-18_anxiety_t",
+        "source_variable": "cbcl_6-18_anxiety_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_somatic_problem_t')": {
+        "label": "cbcl_6-18_somatic_problem_t",
+        "source_variable": "cbcl_6-18_somatic_problem_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_attention_deficit_t')": {
+        "label": "cbcl_6-18_attention_deficit_t",
+        "source_variable": "cbcl_6-18_attention_deficit_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_oppositional_t')": {
+        "label": "cbcl_6-18_oppositional_t",
+        "source_variable": "cbcl_6-18_oppositional_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_conduct_t')": {
+        "label": "cbcl_6-18_conduct_t",
+        "source_variable": "cbcl_6-18_conduct_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_sluggish_t')": {
+        "label": "cbcl_6-18_sluggish_t",
+        "source_variable": "cbcl_6-18_sluggish_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_obsessive_t')": {
+        "label": "cbcl_6-18_obsessive_t",
+        "source_variable": "cbcl_6-18_obsessive_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_6-18_post_traumatic_t')": {
+        "label": "cbcl_6-18_post_traumatic_t",
+        "source_variable": "cbcl_6-18_post_traumatic_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_emotion_t')": {
+        "label": "cbcl_1.5-5_emotion_t",
+        "source_variable": "cbcl_1.5-5_emotion_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_anxious_t')": {
+        "label": "cbcl_1.5-5_anxious_t",
+        "source_variable": "cbcl_1.5-5_anxious_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_somantic_t')": {
+        "label": "cbcl_1.5-5_somantic_t",
+        "source_variable": "cbcl_1.5-5_somantic_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_withdrawn_t')": {
+        "label": "cbcl_1.5-5_withdrawn_t",
+        "source_variable": "cbcl_1.5-5_withdrawn_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_sleep_t')": {
+        "label": "cbcl_1.5-5_sleep_t",
+        "source_variable": "cbcl_1.5-5_sleep_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_attention_problem_t')": {
+        "label": "cbcl_1.5-5_attention_problem_t",
+        "source_variable": "cbcl_1.5-5_attention_problem_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_aggressive_t')": {
+        "label": "cbcl_1.5-5_aggressive_t",
+        "source_variable": "cbcl_1.5-5_aggressive_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_internal_t')": {
+        "label": "cbcl_1.5-5_internal_t",
+        "source_variable": "cbcl_1.5-5_internal_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_external_t')": {
+        "label": "cbcl_1.5-5_external_t",
+        "source_variable": "cbcl_1.5-5_external_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_total_t')": {
+        "label": "cbcl_1.5-5_total_t",
+        "source_variable": "cbcl_1.5-5_total_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_stress_t')": {
+        "label": "cbcl_1.5-5_stress_t",
+        "source_variable": "cbcl_1.5-5_stress_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_affective_t')": {
+        "label": "cbcl_1.5-5_affective_t",
+        "source_variable": "cbcl_1.5-5_affective_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_anxiety_t')": {
+        "label": "cbcl_1.5-5_anxiety_t",
+        "source_variable": "cbcl_1.5-5_anxiety_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_pervasive_t')": {
+        "label": "cbcl_1.5-5_pervasive_t",
+        "source_variable": "cbcl_1.5-5_pervasive_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_attention_deficit_t')": {
+        "label": "cbcl_1.5-5_attention_deficit_t",
+        "source_variable": "cbcl_1.5-5_attention_deficit_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cbcl_1.5-5_oppositional_t')": {
+        "label": "cbcl_1.5-5_oppositional_t",
+        "source_variable": "cbcl_1.5-5_oppositional_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='bdi_edition')": {
+        "label": "bdi_edition",
+        "source_variable": "bdi_edition",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='bdi_total')": {
+        "label": "bdi_total",
+        "source_variable": "bdi_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='wiat-ii-a_word_t')": {
+        "label": "wiat-ii-a_word_t",
+        "source_variable": "wiat-ii-a_word_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='wiat-ii-a_numerical_t')": {
+        "label": "wiat-ii-a_numerical_t",
+        "source_variable": "wiat-ii-a_numerical_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='wiat-ii-a_spelling_t')": {
+        "label": "wiat-ii-a_spelling_t",
+        "source_variable": "wiat-ii-a_spelling_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='wiat-ii-a_total_composite_s')": {
+        "label": "wiat-ii-a_total_composite_s",
+        "source_variable": "wiat-ii-a_total_composite_s",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='vmi_edition')": {
+        "label": "vmi_edition",
+        "source_variable": "vmi_edition",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='vmi_vmi_s')": {
+        "label": "vmi_vmi_s",
+        "source_variable": "vmi_vmi_s",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='celf_edition')": {
+        "label": "celf_edition",
+        "source_variable": "celf_edition",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='celf_5-8_core_s')": {
+        "label": "celf_5-8_core_s",
+        "source_variable": "celf_5-8_core_s",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='celf_5-8_receptive_s')": {
+        "label": "celf_5-8_receptive_s",
+        "source_variable": "celf_5-8_receptive_s",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='celf_5-8_expressive_s')": {
+        "label": "celf_5-8_expressive_s",
+        "source_variable": "celf_5-8_expressive_s",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='celf_9-21_core_s')": {
+        "label": "celf_9-21_core_s",
+        "source_variable": "celf_9-21_core_s",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='celf_9-21_receptive_s')": {
+        "label": "celf_9-21_receptive_s",
+        "source_variable": "celf_9-21_receptive_s",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='celf_9-21_expressive_s')": {
+        "label": "celf_9-21_expressive_s",
+        "source_variable": "celf_9-21_expressive_s",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_version')": {
+        "label": "basc2_prs_version",
+        "source_variable": "basc2_prs_version",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_anger_t')": {
+        "label": "basc2_prs_anger_t",
+        "source_variable": "basc2_prs_anger_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_hyperactivity_t')": {
+        "label": "basc2_prs_hyperactivity_t",
+        "source_variable": "basc2_prs_hyperactivity_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_aggression_t')": {
+        "label": "basc2_prs_aggression_t",
+        "source_variable": "basc2_prs_aggression_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_conduct_t')": {
+        "label": "basc2_prs_conduct_t",
+        "source_variable": "basc2_prs_conduct_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_external_t')": {
+        "label": "basc2_prs_external_t",
+        "source_variable": "basc2_prs_external_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_external_mean_t')": {
+        "label": "basc2_prs_external_mean_t",
+        "source_variable": "basc2_prs_external_mean_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_anxiety_t')": {
+        "label": "basc2_prs_anxiety_t",
+        "source_variable": "basc2_prs_anxiety_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_depression_t')": {
+        "label": "basc2_prs_depression_t",
+        "source_variable": "basc2_prs_depression_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_somatization_t')": {
+        "label": "basc2_prs_somatization_t",
+        "source_variable": "basc2_prs_somatization_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_internal_t')": {
+        "label": "basc2_prs_internal_t",
+        "source_variable": "basc2_prs_internal_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_internal_mean_t')": {
+        "label": "basc2_prs_internal_mean_t",
+        "source_variable": "basc2_prs_internal_mean_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_atypicality_t')": {
+        "label": "basc2_prs_atypicality_t",
+        "source_variable": "basc2_prs_atypicality_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_withdrawal_t')": {
+        "label": "basc2_prs_withdrawal_t",
+        "source_variable": "basc2_prs_withdrawal_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_attention_t')": {
+        "label": "basc2_prs_attention_t",
+        "source_variable": "basc2_prs_attention_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_bsi_t')": {
+        "label": "basc2_prs_bsi_t",
+        "source_variable": "basc2_prs_bsi_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_bsi_mean_t')": {
+        "label": "basc2_prs_bsi_mean_t",
+        "source_variable": "basc2_prs_bsi_mean_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_adaptability_t')": {
+        "label": "basc2_prs_adaptability_t",
+        "source_variable": "basc2_prs_adaptability_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_social_t')": {
+        "label": "basc2_prs_social_t",
+        "source_variable": "basc2_prs_social_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_leadership_t')": {
+        "label": "basc2_prs_leadership_t",
+        "source_variable": "basc2_prs_leadership_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_activities_t')": {
+        "label": "basc2_prs_activities_t",
+        "source_variable": "basc2_prs_activities_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_functional_t')": {
+        "label": "basc2_prs_functional_t",
+        "source_variable": "basc2_prs_functional_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_adaptive_t')": {
+        "label": "basc2_prs_adaptive_t",
+        "source_variable": "basc2_prs_adaptive_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_adaptive_mean_t')": {
+        "label": "basc2_prs_adaptive_mean_t",
+        "source_variable": "basc2_prs_adaptive_mean_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_bully_t')": {
+        "label": "basc2_prs_bully_t",
+        "source_variable": "basc2_prs_bully_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_dsd_t')": {
+        "label": "basc2_prs_dsd_t",
+        "source_variable": "basc2_prs_dsd_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_emotional_t')": {
+        "label": "basc2_prs_emotional_t",
+        "source_variable": "basc2_prs_emotional_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_executive_t')": {
+        "label": "basc2_prs_executive_t",
+        "source_variable": "basc2_prs_executive_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_negative_t')": {
+        "label": "basc2_prs_negative_t",
+        "source_variable": "basc2_prs_negative_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='basc2_prs_resiliency_t')": {
+        "label": "basc2_prs_resiliency_t",
+        "source_variable": "basc2_prs_resiliency_t",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_opp')": {
+        "label": "cprs_opp",
+        "source_variable": "cprs_opp",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_cog-inatt')": {
+        "label": "cprs_cog-inatt",
+        "source_variable": "cprs_cog-inatt",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_hyperact')": {
+        "label": "cprs_hyperact",
+        "source_variable": "cprs_hyperact",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_anx_shy')": {
+        "label": "cprs_anx_shy",
+        "source_variable": "cprs_anx_shy",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_perfect')": {
+        "label": "cprs_perfect",
+        "source_variable": "cprs_perfect",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_social_prob')": {
+        "label": "cprs_social_prob",
+        "source_variable": "cprs_social_prob",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_psycho_somatic')": {
+        "label": "cprs_psycho_somatic",
+        "source_variable": "cprs_psycho_somatic",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_conn_adhd')": {
+        "label": "cprs_conn_adhd",
+        "source_variable": "cprs_conn_adhd",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_rest_impuls')": {
+        "label": "cprs_rest_impuls",
+        "source_variable": "cprs_rest_impuls",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_emot_lability')": {
+        "label": "cprs_emot_lability",
+        "source_variable": "cprs_emot_lability",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_conn_gi_total')": {
+        "label": "cprs_conn_gi_total",
+        "source_variable": "cprs_conn_gi_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_dsm_iv_inatt')": {
+        "label": "cprs_dsm_iv_inatt",
+        "source_variable": "cprs_dsm_iv_inatt",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_dsm_iv_hyper_impul')": {
+        "label": "cprs_dsm_iv_hyper_impul",
+        "source_variable": "cprs_dsm_iv_hyper_impul",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_dsm_iv_total')": {
+        "label": "cprs_dsm_iv_total",
+        "source_variable": "cprs_dsm_iv_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_inatt_symptoms')": {
+        "label": "cprs_inatt_symptoms",
+        "source_variable": "cprs_inatt_symptoms",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='cprs_hyper_impul_symptoms')": {
+        "label": "cprs_hyper_impul_symptoms",
+        "source_variable": "cprs_hyper_impul_symptoms",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_adhd-i_cutoff')": {
+        "label": "casi_adhd-i_cutoff",
+        "source_variable": "casi_adhd-i_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_adhd-h_cutoff')": {
+        "label": "casi_adhd-h_cutoff",
+        "source_variable": "casi_adhd-h_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_adhd-c_cutoff')": {
+        "label": "casi_adhd-c_cutoff",
+        "source_variable": "casi_adhd-c_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_odd_cutoff')": {
+        "label": "casi_odd_cutoff",
+        "source_variable": "casi_odd_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_cd_cutoff')": {
+        "label": "casi_cd_cutoff",
+        "source_variable": "casi_cd_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_gad_cutoff')": {
+        "label": "casi_gad_cutoff",
+        "source_variable": "casi_gad_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_specific_phobia_cutoff')": {
+        "label": "casi_specific_phobia_cutoff",
+        "source_variable": "casi_specific_phobia_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_obsessions_cutoff')": {
+        "label": "casi_obsessions_cutoff",
+        "source_variable": "casi_obsessions_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_compulsions_cutoff')": {
+        "label": "casi_compulsions_cutoff",
+        "source_variable": "casi_compulsions_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_ptsd_cutoff')": {
+        "label": "casi_ptsd_cutoff",
+        "source_variable": "casi_ptsd_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_motor_tics_cutoff')": {
+        "label": "casi_motor_tics_cutoff",
+        "source_variable": "casi_motor_tics_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_vocal_tics_cutoff')": {
+        "label": "casi_vocal_tics_cutoff",
+        "source_variable": "casi_vocal_tics_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_social_phobia_cutoff')": {
+        "label": "casi_social_phobia_cutoff",
+        "source_variable": "casi_social_phobia_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_separation_cutoff')": {
+        "label": "casi_separation_cutoff",
+        "source_variable": "casi_separation_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_schizophrenia_cutoff')": {
+        "label": "casi_schizophrenia_cutoff",
+        "source_variable": "casi_schizophrenia_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_nocturnal_enuresis_cutoff')": {
+        "label": "casi_nocturnal_enuresis_cutoff",
+        "source_variable": "casi_nocturnal_enuresis_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_enuresis_encopresis_cutoff')": {
+        "label": "casi_enuresis_encopresis_cutoff",
+        "source_variable": "casi_enuresis_encopresis_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_mde_cutoff')": {
+        "label": "casi_mde_cutoff",
+        "source_variable": "casi_mde_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_dysthymic_cutoff')": {
+        "label": "casi_dysthymic_cutoff",
+        "source_variable": "casi_dysthymic_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_autistic_cutoff')": {
+        "label": "casi_autistic_cutoff",
+        "source_variable": "casi_autistic_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_asperger_cutoff')": {
+        "label": "casi_asperger_cutoff",
+        "source_variable": "casi_asperger_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_aspd_cutoff')": {
+        "label": "casi_aspd_cutoff",
+        "source_variable": "casi_aspd_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_panic_attacks_cutoff')": {
+        "label": "casi_panic_attacks_cutoff",
+        "source_variable": "casi_panic_attacks_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_somatization_cutoff')": {
+        "label": "casi_somatization_cutoff",
+        "source_variable": "casi_somatization_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_schizoid_personality_cutoff')": {
+        "label": "casi_schizoid_personality_cutoff",
+        "source_variable": "casi_schizoid_personality_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_manic_episode_cutoff')": {
+        "label": "casi_manic_episode_cutoff",
+        "source_variable": "casi_manic_episode_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_anorexia_nervosa_cutoff')": {
+        "label": "casi_anorexia_nervosa_cutoff",
+        "source_variable": "casi_anorexia_nervosa_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_bulimia_nervosa_cutoff')": {
+        "label": "casi_bulimia_nervosa_cutoff",
+        "source_variable": "casi_bulimia_nervosa_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='casi_substance_use_cutoff')": {
+        "label": "casi_substance_use_cutoff",
+        "source_variable": "casi_substance_use_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_adhd-i_severity')": {
+        "label": "csi_adhd-i_severity",
+        "source_variable": "csi_adhd-i_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_adhd-i_cutoff')": {
+        "label": "csi_adhd-i_cutoff",
+        "source_variable": "csi_adhd-i_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_adhd-h_severity')": {
+        "label": "csi_adhd-h_severity",
+        "source_variable": "csi_adhd-h_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_adhd-h_cutoff')": {
+        "label": "csi_adhd-h_cutoff",
+        "source_variable": "csi_adhd-h_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_adhd-c_severity')": {
+        "label": "csi_adhd-c_severity",
+        "source_variable": "csi_adhd-c_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_adhd-c_cutoff')": {
+        "label": "csi_adhd-c_cutoff",
+        "source_variable": "csi_adhd-c_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_odd_severity')": {
+        "label": "csi_odd_severity",
+        "source_variable": "csi_odd_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_odd_ cutoff')": {
+        "label": "csi_odd_ cutoff",
+        "source_variable": "csi_odd_ cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_cd_severity')": {
+        "label": "csi_cd_severity",
+        "source_variable": "csi_cd_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_cd_cutoff')": {
+        "label": "csi_cd_cutoff",
+        "source_variable": "csi_cd_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_gad_severity')": {
+        "label": "csi_gad_severity",
+        "source_variable": "csi_gad_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_gad_cutoff')": {
+        "label": "csi_gad_cutoff",
+        "source_variable": "csi_gad_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_specific_phobia_severity')": {
+        "label": "csi_specific_phobia_severity",
+        "source_variable": "csi_specific_phobia_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_specific_phobia_cutoff')": {
+        "label": "csi_specific_phobia_cutoff",
+        "source_variable": "csi_specific_phobia_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_obsessions_severity')": {
+        "label": "csi_obsessions_severity",
+        "source_variable": "csi_obsessions_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_obsessions_cutoff')": {
+        "label": "csi_obsessions_cutoff",
+        "source_variable": "csi_obsessions_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_compulsions_severity')": {
+        "label": "csi_compulsions_severity",
+        "source_variable": "csi_compulsions_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_compulsions_cutoff')": {
+        "label": "csi_compulsions_cutoff",
+        "source_variable": "csi_compulsions_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_disturbing_events_severity')": {
+        "label": "csi_disturbing_events_severity",
+        "source_variable": "csi_disturbing_events_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_disturbing_events_cutoff')": {
+        "label": "csi_disturbing_events_cutoff",
+        "source_variable": "csi_disturbing_events_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_motor_tics_severity')": {
+        "label": "csi_motor_tics_severity",
+        "source_variable": "csi_motor_tics_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_motor_tics_cutoff')": {
+        "label": "csi_motor_tics_cutoff",
+        "source_variable": "csi_motor_tics_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_vocal_tics_severity')": {
+        "label": "csi_vocal_tics_severity",
+        "source_variable": "csi_vocal_tics_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_vocal_tics_cutoff')": {
+        "label": "csi_vocal_tics_cutoff",
+        "source_variable": "csi_vocal_tics_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_schizophrenia_severity')": {
+        "label": "csi_schizophrenia_severity",
+        "source_variable": "csi_schizophrenia_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_schizophrenia_cutoff')": {
+        "label": "csi_schizophrenia_cutoff",
+        "source_variable": "csi_schizophrenia_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_mdd_severity')": {
+        "label": "csi_mdd_severity",
+        "source_variable": "csi_mdd_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_mdd_cutoff')": {
+        "label": "csi_mdd_cutoff",
+        "source_variable": "csi_mdd_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_dysthymic_severity')": {
+        "label": "csi_dysthymic_severity",
+        "source_variable": "csi_dysthymic_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_dysthymic_cutoff')": {
+        "label": "csi_dysthymic_cutoff",
+        "source_variable": "csi_dysthymic_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_autistic_severity')": {
+        "label": "csi_autistic_severity",
+        "source_variable": "csi_autistic_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_autistic_cutoff')": {
+        "label": "csi_autistic_cutoff",
+        "source_variable": "csi_autistic_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_asperger_severity')": {
+        "label": "csi_asperger_severity",
+        "source_variable": "csi_asperger_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_asperger_cutoff')": {
+        "label": "csi_asperger_cutoff",
+        "source_variable": "csi_asperger_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_social_phobia_severity')": {
+        "label": "csi_social_phobia_severity",
+        "source_variable": "csi_social_phobia_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_social_phobia_cutoff')": {
+        "label": "csi_social_phobia_cutoff",
+        "source_variable": "csi_social_phobia_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_separation_severity')": {
+        "label": "csi_separation_severity",
+        "source_variable": "csi_separation_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_separation_cutoff')": {
+        "label": "csi_separation_cutoff",
+        "source_variable": "csi_separation_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_enuresis_severity')": {
+        "label": "csi_enuresis_severity",
+        "source_variable": "csi_enuresis_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_enuresis_cutoff')": {
+        "label": "csi_enuresis_cutoff",
+        "source_variable": "csi_enuresis_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_encopresis_severity')": {
+        "label": "csi_encopresis_severity",
+        "source_variable": "csi_encopresis_severity",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='csi_encopresis_cutoff')": {
+        "label": "csi_encopresis_cutoff",
+        "source_variable": "csi_encopresis_cutoff",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a1_direct_gaze')": {
+        "label": "adi_r_a1_direct_gaze",
+        "source_variable": "adi_r_a1_direct_gaze",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a1_social_smile')": {
+        "label": "adi_r_a1_social_smile",
+        "source_variable": "adi_r_a1_social_smile",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a1_facial_expressions')": {
+        "label": "adi_r_a1_facial_expressions",
+        "source_variable": "adi_r_a1_facial_expressions",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a1_total')": {
+        "label": "adi_r_a1_total",
+        "source_variable": "adi_r_a1_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a2_imaginative_play')": {
+        "label": "adi_r_a2_imaginative_play",
+        "source_variable": "adi_r_a2_imaginative_play",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a2_interest_in_children')": {
+        "label": "adi_r_a2_interest_in_children",
+        "source_variable": "adi_r_a2_interest_in_children",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a2_response_to_approaches')": {
+        "label": "adi_r_a2_response_to_approaches",
+        "source_variable": "adi_r_a2_response_to_approaches",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a2_group_play')": {
+        "label": "adi_r_a2_group_play",
+        "source_variable": "adi_r_a2_group_play",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a2_higher')": {
+        "label": "adi_r_a2_higher",
+        "source_variable": "adi_r_a2_higher",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a2_friendships')": {
+        "label": "adi_r_a2_friendships",
+        "source_variable": "adi_r_a2_friendships",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a2_total')": {
+        "label": "adi_r_a2_total",
+        "source_variable": "adi_r_a2_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a3_showing_directing_attention')": {
+        "label": "adi_r_a3_showing_directing_attention",
+        "source_variable": "adi_r_a3_showing_directing_attention",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a3_offering_to_share')": {
+        "label": "adi_r_a3_offering_to_share",
+        "source_variable": "adi_r_a3_offering_to_share",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a3_seeking_share_enjoyment')": {
+        "label": "adi_r_a3_seeking_share_enjoyment",
+        "source_variable": "adi_r_a3_seeking_share_enjoyment",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a3_total')": {
+        "label": "adi_r_a3_total",
+        "source_variable": "adi_r_a3_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a4_use_others_body')": {
+        "label": "adi_r_a4_use_others_body",
+        "source_variable": "adi_r_a4_use_others_body",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a4_offering_comfort')": {
+        "label": "adi_r_a4_offering_comfort",
+        "source_variable": "adi_r_a4_offering_comfort",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a4_quality_social_overtures')": {
+        "label": "adi_r_a4_quality_social_overtures",
+        "source_variable": "adi_r_a4_quality_social_overtures",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a4_inappropriate_facial_expressions')": {
+        "label": "adi_r_a4_inappropriate_facial_expressions",
+        "source_variable": "adi_r_a4_inappropriate_facial_expressions",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a4_appropriate_social_responses')": {
+        "label": "adi_r_a4_appropriate_social_responses",
+        "source_variable": "adi_r_a4_appropriate_social_responses",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_a4_total')": {
+        "label": "adi_r_a4_total",
+        "source_variable": "adi_r_a4_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b1_pointing_express_interest')": {
+        "label": "adi_r_b1_pointing_express_interest",
+        "source_variable": "adi_r_b1_pointing_express_interest",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b1_nodding')": {
+        "label": "adi_r_b1_nodding",
+        "source_variable": "adi_r_b1_nodding",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b1_head_shaking')": {
+        "label": "adi_r_b1_head_shaking",
+        "source_variable": "adi_r_b1_head_shaking",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b1_conventional_gestures')": {
+        "label": "adi_r_b1_conventional_gestures",
+        "source_variable": "adi_r_b1_conventional_gestures",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b1_total')": {
+        "label": "adi_r_b1_total",
+        "source_variable": "adi_r_b1_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b4_spontaneous_imitation')": {
+        "label": "adi_r_b4_spontaneous_imitation",
+        "source_variable": "adi_r_b4_spontaneous_imitation",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b4_imaginative_play')": {
+        "label": "adi_r_b4_imaginative_play",
+        "source_variable": "adi_r_b4_imaginative_play",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b4_imitative_social_play')": {
+        "label": "adi_r_b4_imitative_social_play",
+        "source_variable": "adi_r_b4_imitative_social_play",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b4_total')": {
+        "label": "adi_r_b4_total",
+        "source_variable": "adi_r_b4_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b2_social_verbalization')": {
+        "label": "adi_r_b2_social_verbalization",
+        "source_variable": "adi_r_b2_social_verbalization",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b2_reciprocal_conversation')": {
+        "label": "adi_r_b2_reciprocal_conversation",
+        "source_variable": "adi_r_b2_reciprocal_conversation",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b2_total')": {
+        "label": "adi_r_b2_total",
+        "source_variable": "adi_r_b2_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b3_stereotyped_utterances')": {
+        "label": "adi_r_b3_stereotyped_utterances",
+        "source_variable": "adi_r_b3_stereotyped_utterances",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b3_inappropriate_questions')": {
+        "label": "adi_r_b3_inappropriate_questions",
+        "source_variable": "adi_r_b3_inappropriate_questions",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b3_pronominal_reversal')": {
+        "label": "adi_r_b3_pronominal_reversal",
+        "source_variable": "adi_r_b3_pronominal_reversal",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b3_neologisms')": {
+        "label": "adi_r_b3_neologisms",
+        "source_variable": "adi_r_b3_neologisms",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_b3_total')": {
+        "label": "adi_r_b3_total",
+        "source_variable": "adi_r_b3_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c1_unusual_preoccupations')": {
+        "label": "adi_r_c1_unusual_preoccupations",
+        "source_variable": "adi_r_c1_unusual_preoccupations",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c1_circumscribed_interests')": {
+        "label": "adi_r_c1_circumscribed_interests",
+        "source_variable": "adi_r_c1_circumscribed_interests",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c1_total')": {
+        "label": "adi_r_c1_total",
+        "source_variable": "adi_r_c1_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c2_verbal_rituals')": {
+        "label": "adi_r_c2_verbal_rituals",
+        "source_variable": "adi_r_c2_verbal_rituals",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c2_compulsions')": {
+        "label": "adi_r_c2_compulsions",
+        "source_variable": "adi_r_c2_compulsions",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c2_total')": {
+        "label": "adi_r_c2_total",
+        "source_variable": "adi_r_c2_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c3_hand_finger_mannerisms')": {
+        "label": "adi_r_c3_hand_finger_mannerisms",
+        "source_variable": "adi_r_c3_hand_finger_mannerisms",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c3_higher')": {
+        "label": "adi_r_c3_higher",
+        "source_variable": "adi_r_c3_higher",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c3_other_complex_mannerisms')": {
+        "label": "adi_r_c3_other_complex_mannerisms",
+        "source_variable": "adi_r_c3_other_complex_mannerisms",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c3_total')": {
+        "label": "adi_r_c3_total",
+        "source_variable": "adi_r_c3_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c4_repetitive_use_objects')": {
+        "label": "adi_r_c4_repetitive_use_objects",
+        "source_variable": "adi_r_c4_repetitive_use_objects",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c4_higher')": {
+        "label": "adi_r_c4_higher",
+        "source_variable": "adi_r_c4_higher",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c4_unusual_sensory_interests')": {
+        "label": "adi_r_c4_unusual_sensory_interests",
+        "source_variable": "adi_r_c4_unusual_sensory_interests",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_c4_total')": {
+        "label": "adi_r_c4_total",
+        "source_variable": "adi_r_c4_total",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_d_age_parent_noticed')": {
+        "label": "adi_r_d_age_parent_noticed",
+        "source_variable": "adi_r_d_age_parent_noticed",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_d_age_first_single_words')": {
+        "label": "adi_r_d_age_first_single_words",
+        "source_variable": "adi_r_d_age_first_single_words",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_d_age_first_phrases')": {
+        "label": "adi_r_d_age_first_phrases",
+        "source_variable": "adi_r_d_age_first_phrases",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_d_age_when_abnormality')": {
+        "label": "adi_r_d_age_when_abnormality",
+        "source_variable": "adi_r_d_age_when_abnormality",
+        "associatedWith": "NIDM"
+    },
+    "DD(variable='adi_r_d_interviewer_judgment')": {
+        "label": "adi_r_d_interviewer_judgment",
+        "source_variable": "adi_r_d_interviewer_judgment",
+        "associatedWith": "NIDM"
+    }
+}

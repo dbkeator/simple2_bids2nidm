@@ -6,10 +6,12 @@
 set -euo pipefail
 
 # Configuration
-BASE_DIR="/orcd/data/satra/002/datasets/simple2_datalad/abide1"
+# BASE_DIR="/orcd/data/satra/002/datasets/simple2_datalad/abide1"
+BASE_DIR="/orcd/data/satra/002/datasets/simple2_datalad/dj_tests"
 JSON_MAP="$(pwd)/data/mappings/abide_phenotypic_v1_0b_vars_to_terms_v5.json"
 CSV_FILE="$(pwd)/data/phenotypes/Phenotypic_V1_0b.csv"
-OUTPUT_DIR="$(pwd)/nidm_outputs/abide1"
+# OUTPUT_DIR="$(pwd)/nidm_outputs/abide1"
+OUTPUT_DIR="$(pwd)/nidm_outputs/dj_tests"
 LOG_DIR="$(pwd)/logs/abide1"
 
 # Create directories

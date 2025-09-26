@@ -1,0 +1,2578 @@
+@prefix bids: <http://bids.neuroimaging.io/> .
+@prefix crypto: <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dicom: <http://neurolex.org/wiki/Category/DICOM_term/> .
+@prefix ndar: <https://ndar.nih.gov/api/datadictionary/v2/dataelement/> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nidm: <http://purl.org/nidash/nidm#> .
+@prefix niiri: <http://iri.nidash.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sio: <http://semanticscience.org/ontology/sio.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+niiri:a4b8c826-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a50870c4-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a5b11562-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a6a81ea2-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a7e504ec-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a8e124b6-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:afc7d29e-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b2e43f1c-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b45c1662-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:bf022b0c-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c12f4a90-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c19d1b74-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c1e55272-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c2a43886-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c3d778da-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c569aefc-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c7a0f180-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d0c76f56-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d271d77e-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d32e212c-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d6654938-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:ddeb54d2-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:de88ca6e-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e0030af8-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e3797fd2-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e616ae0e-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e8820634-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:edab4068-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:ef59c7c2-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:ef80dcae-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f044b52a-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f08407f2-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f2364eac-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f70816c2-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f7387128-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f823f724-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:fcbbe7ca-9986-11f0-bfe0-303ea704ad38 a bids:Dataset,
+        prov:Collection,
+        prov:Entity ;
+    bids:BIDSVersion "1.4.2"^^xsd:string ;
+    dct:license "Creative Commons, Attribution-NonCommercial-Share Alike License"^^xsd:string ;
+    dcat:creator "http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html"^^xsd:string ;
+    prov:hadMember niiri:a0058b48-9986-11f0-bfe0-303ea704ad38,
+        niiri:a0866678-9986-11f0-bfe0-303ea704ad38,
+        niiri:a27470d8-9986-11f0-bfe0-303ea704ad38,
+        niiri:a2879668-9986-11f0-bfe0-303ea704ad38,
+        niiri:a45e7c40-9986-11f0-bfe0-303ea704ad38,
+        niiri:a50bf83e-9986-11f0-bfe0-303ea704ad38,
+        niiri:a668123a-9986-11f0-bfe0-303ea704ad38,
+        niiri:a70a90d2-9986-11f0-bfe0-303ea704ad38,
+        niiri:a75d76f8-9986-11f0-bfe0-303ea704ad38,
+        niiri:ad8d30f0-9986-11f0-bfe0-303ea704ad38,
+        niiri:aec5723e-9986-11f0-bfe0-303ea704ad38,
+        niiri:af5c203a-9986-11f0-bfe0-303ea704ad38,
+        niiri:b0c9ee48-9986-11f0-bfe0-303ea704ad38,
+        niiri:b19f943a-9986-11f0-bfe0-303ea704ad38,
+        niiri:b3db04a0-9986-11f0-bfe0-303ea704ad38,
+        niiri:b51dc514-9986-11f0-bfe0-303ea704ad38,
+        niiri:b66e9c40-9986-11f0-bfe0-303ea704ad38,
+        niiri:b7e76840-9986-11f0-bfe0-303ea704ad38,
+        niiri:b88481ca-9986-11f0-bfe0-303ea704ad38,
+        niiri:bdca1920-9986-11f0-bfe0-303ea704ad38,
+        niiri:bed263ea-9986-11f0-bfe0-303ea704ad38,
+        niiri:bfd9c01c-9986-11f0-bfe0-303ea704ad38,
+        niiri:c04746dc-9986-11f0-bfe0-303ea704ad38,
+        niiri:c09c08e8-9986-11f0-bfe0-303ea704ad38,
+        niiri:c1fac274-9986-11f0-bfe0-303ea704ad38,
+        niiri:c238aa62-9986-11f0-bfe0-303ea704ad38,
+        niiri:c330e25e-9986-11f0-bfe0-303ea704ad38,
+        niiri:c3eac502-9986-11f0-bfe0-303ea704ad38,
+        niiri:c4bc1698-9986-11f0-bfe0-303ea704ad38,
+        niiri:c56c1ca0-9986-11f0-bfe0-303ea704ad38,
+        niiri:c5b4cc02-9986-11f0-bfe0-303ea704ad38,
+        niiri:c5c07e9e-9986-11f0-bfe0-303ea704ad38,
+        niiri:c619ba68-9986-11f0-bfe0-303ea704ad38,
+        niiri:c62c0916-9986-11f0-bfe0-303ea704ad38,
+        niiri:c71b1ad8-9986-11f0-bfe0-303ea704ad38,
+        niiri:c83ac468-9986-11f0-bfe0-303ea704ad38,
+        niiri:cdedfcb4-9986-11f0-bfe0-303ea704ad38,
+        niiri:ce8b0b8a-9986-11f0-bfe0-303ea704ad38,
+        niiri:cf045da0-9986-11f0-bfe0-303ea704ad38,
+        niiri:cfca9358-9986-11f0-bfe0-303ea704ad38,
+        niiri:d131a95c-9986-11f0-bfe0-303ea704ad38,
+        niiri:d1e7b580-9986-11f0-bfe0-303ea704ad38,
+        niiri:d2e68916-9986-11f0-bfe0-303ea704ad38,
+        niiri:d2eeac0e-9986-11f0-bfe0-303ea704ad38,
+        niiri:d38e0b1e-9986-11f0-bfe0-303ea704ad38,
+        niiri:d576743e-9986-11f0-bfe0-303ea704ad38,
+        niiri:d6bf9992-9986-11f0-bfe0-303ea704ad38,
+        niiri:d8266ed2-9986-11f0-bfe0-303ea704ad38,
+        niiri:dd792484-9986-11f0-bfe0-303ea704ad38,
+        niiri:df16339a-9986-11f0-bfe0-303ea704ad38,
+        niiri:df637736-9986-11f0-bfe0-303ea704ad38,
+        niiri:e00ca5e0-9986-11f0-bfe0-303ea704ad38,
+        niiri:e0531f98-9986-11f0-bfe0-303ea704ad38,
+        niiri:e151c340-9986-11f0-bfe0-303ea704ad38,
+        niiri:e1b3a9de-9986-11f0-bfe0-303ea704ad38,
+        niiri:e24b9bfe-9986-11f0-bfe0-303ea704ad38,
+        niiri:e2a6770e-9986-11f0-bfe0-303ea704ad38,
+        niiri:e2afcd68-9986-11f0-bfe0-303ea704ad38,
+        niiri:e37be894-9986-11f0-bfe0-303ea704ad38,
+        niiri:e4748634-9986-11f0-bfe0-303ea704ad38,
+        niiri:e4d48624-9986-11f0-bfe0-303ea704ad38,
+        niiri:e73b495c-9986-11f0-bfe0-303ea704ad38,
+        niiri:e7a3b3a2-9986-11f0-bfe0-303ea704ad38,
+        niiri:e7b4b4b8-9986-11f0-bfe0-303ea704ad38,
+        niiri:e80406bc-9986-11f0-bfe0-303ea704ad38,
+        niiri:ee056ae8-9986-11f0-bfe0-303ea704ad38,
+        niiri:f0dab5d4-9986-11f0-bfe0-303ea704ad38,
+        niiri:f34547da-9986-11f0-bfe0-303ea704ad38,
+        niiri:f6ab3eb6-9986-11f0-bfe0-303ea704ad38,
+        niiri:f8a1511a-9986-11f0-bfe0-303ea704ad38,
+        niiri:fdb82148-9986-11f0-bfe0-303ea704ad38,
+        niiri:fea4e30c-9986-11f0-bfe0-303ea704ad38,
+        niiri:ff835c54-9986-11f0-bfe0-303ea704ad38,
+        niiri:ff87852c-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:fec318cc-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a0058b48-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "7fa9aa8ca4265c24b803d065a9602a45f7d3fa2eebd5f7cc4ead24f813baa6296c8796d65b7d3fbbe5a5eebbe1d8bfe34bb2a2de7a0b0c3724ee01407bc84782"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29067/ses-1/anat/sub-29067_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29067/ses-1/anat/sub-29067_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d0056dfc-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a0866678-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "5d6fe136e574b8ad147d9e36a55608b5f24f647c28c1f0d8893f87310e1844fe38578121025f481a7fc76116e7ffacc71576b557471a6c01984bf0ac9a376669"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29069/ses-1/anat/sub-29069_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29069/ses-1/anat/sub-29069_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c0864918-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a0c9d318-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f0c93ffc-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a0c9d714-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a0da9298-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f0c93ffc-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a0c9d714-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a151bce2-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c1310678-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f131a588-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a19f766c-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f19ed770-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f19f7acc-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a2388cda-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d237f518-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c23890d6-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a27470d8-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "f9d9a23352231463de788c994f01a7cd6750e8d936663a615523f59894d4a06c26d0d6f4bde6edf8f12db71cb83b62b50a384fc96f12d14788c11817405806d1"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29075/ses-1/anat/sub-29075_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29075/ses-1/anat/sub-29075_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b2745530-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a2879668-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "f70988747c53d4d8b370f6c23b9ff4707ce8582f7550e4164cb6a1990e3ede530c7a99e0d3942dfd268dd8479655940f4944f47b36ee19353bedb59bc0f24103"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29075/ses-1/func/sub-29075_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29075/ses-1/func/sub-29075_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c28775f2-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a3452782-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f3302b66-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a330ca26-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a3dadb42-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b3d9eb42-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a3dae042-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a45e7c40-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "131a6a6b09d582ec4e281b1878f5ee65c7630505b9085bd5171175bfb9200d35756374600f5b0ee94f96455dbe671ced6cffd1af18762b9c9a58584fe4ed06b2"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29081/ses-1/anat/sub-29081_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29081/ses-1/anat/sub-29081_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e45e6200-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a50bf83e-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "b20cf9084a0a1889384041e0ac3d752030670157aaa791c03c4f1e94b0f261d3d329d85070f27a2c4eb6e6e1fab7ec2ec7a934b6680cf55663fade7bf2ba544a"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29083/ses-1/anat/sub-29083_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29083/ses-1/anat/sub-29083_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b50bd688-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a51d97f6-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a50b0492-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d50bdaac-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a668123a-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "c60e15b1f21a03c1d517516bbbf4c2418f2e01c4adf74d03e751551ffaae4ccb5ac7229c579c8dd6c038bcaefb5fa7d6723b3addf322b03ba8cd592eae10e8a1"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29087/ses-1/anat/sub-29087_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29087/ses-1/anat/sub-29087_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d667f73c-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a70a8a42-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f709ed6c-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f70a8d8a-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a70a90d2-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "6fd78876343888f960f9f770b789da5bf2561c099d43d71cd57f9c1ebfd27743a02bef0a8435768ffeceba26a0981be81df5cfd4fd7699f5b847f8007830898d"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29089/ses-1/anat/sub-29089_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29089/ses-1/anat/sub-29089_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a70a8a42-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a75d76f8-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "669ebdef5f41ad35f0f3e01a33cdbbb0a2fb78150c20195bce11521d296c99231e2c6f15dbfb22e965bf820d0f45979c55948a665a37b36955ac03c622f18c99"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29090/ses-1/func/sub-29090_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29090/ses-1/func/sub-29090_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b75d5484-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a8a130a4-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b883a5fc-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b8846802-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ad791a34-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fd784f64-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:bd791ee4-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ad8d30f0-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "0ca116664cef3780bf4c092c3a496dbfd44ed3611b2131b22c3e5044c56a7ce9bc464d4ec67214ade28e5fab1a5a7e9e60aff1404d37bb50121e9f0a94ce36ce"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29057/ses-1/func/sub-29057_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29057/ses-1/func/sub-29057_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:dd8d2b82-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:adeddf7c-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:cded2078-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:bdede396-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ae8b0356-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fe8a7210-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:de8b0806-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:aec5723e-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "e2633e6114fc9e461ad8f85e80e411bc4d4c8ebe1a9775d054378e49e2887191cfe6f85ca68cbd03c9d35533731c6a6ad385aa61f9d73946c37c77bcd366fad1"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29062/ses-1/anat/sub-29062_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29062/ses-1/anat/sub-29062_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:bec55790-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:aed24234-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bec4c654-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:bec55b00-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:af045666-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bf03c9c6-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:df0459e0-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:af5c203a-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "e91381a7cffb8a43b5ad7c26b09fc83bb52736ddce9c7243d009c1e8e110cdd1b33c7ca54653cd4dfc4eb9cc7ad0ef1702f82536c024505dbac763750531e4ba"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29064/ses-1/anat/sub-29064_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29064/ses-1/anat/sub-29064_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:df5c04ce-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b00c85d8-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b004cf46-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f0057270-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b0472a8a-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a0466776-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c0472e40-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b0c9ee48-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "7b87df6a06e1a43740decc84430ebbbf799e409cda4ffcf1d78f704831c639a5027c33beda5cfcaf1b7e4e2e1e204f33da995eb1ffe9e53b21d10afed39e9973"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29070/ses-1/anat/sub-29070_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29070/ses-1/anat/sub-29070_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a0c9d318-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b131a178-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c1310678-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f131a588-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b19f943a-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "a27ccb6d5d626072c856147f9dfc3a62009abc8b3d80d75d28c201d747d84008f8071b7bcdd7334d22715d7baca3bd332f379a7424cd064cc3f9b15b7d5cef26"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29072/ses-1/anat/sub-29072_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29072/ses-1/anat/sub-29072_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a19f766c-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b1b38936-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f19ed770-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f19f7acc-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b2745530-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a273bf1c-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f27458be-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b2afc6d8-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:e2a5dace-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a2a67312-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b3db04a0-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "b1076a014cb6cde1ad3255a06345a0ff08ec1367b375b9a2e446b44878f385763341f7e2c3fd1903d281e273eb354cdedc949b491a76fa1c65b86fa966dfd607"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29080/ses-1/anat/sub-29080_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29080/ses-1/anat/sub-29080_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a3dadb42-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b4bbed3a-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a4bb13d8-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e4bbf208-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b50bd688-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a50b0492-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d50bdaac-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b51dc514-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "e685bd33dbb8d23eab17353511d90e1dea71066420c685947d317ff326455b1fa824a54df37cbf3feacb4ea2350a3e24e57a896a9f13a3e6c6ed07e8292586ae"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29083/ses-1/func/sub-29083_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29083/ses-1/func/sub-29083_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a51d97f6-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b66e9c40-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "301940bc79b1307d68bbdcc7f5cf6c8885ca13481322d117f7cace538ae1fec6bf6301b72fc67a62451e5edcf287d0ad4753505707421179c41734045b2f1d12"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29087/ses-1/func/sub-29087_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29087/ses-1/func/sub-29087_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f66e79cc-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b75d5484-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d73a8594-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c73b2f1c-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b7e76840-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "2fa5fb01e9accb3538e4d0da0d0ba179a389e9266f8da87c83bcb516789215825a6a8ffb010c11fb54ce2418b7c69bc72fd0484b5b5f2bc2866e1e26ca456fc4"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29092/ses-1/anat/sub-29092_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29092/ses-1/anat/sub-29092_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e7e76160-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b88481ca-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "ddab8bf110bbe6addff0f8329909e74bf555ab58aec71326497a919d9f69ba4fe90dc069f554eb7e5bd1339eab137517e5b3ae3c3d9fbcdbfe12743193e69024"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29094/ses-1/anat/sub-29094_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29094/ses-1/anat/sub-29094_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c8846488-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:bdca1920-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "a1ce7601a4c57debcdbe25ecad9238232a93d196c78081123837cb85e739bbd9c357a87480cff7a34a379cc60fcf66f2a9c619dceb8051f888bd8c7ff5e2c363"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29058/ses-1/func/sub-29058_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29058/ses-1/func/sub-29058_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ddca1286-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:be054a68-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:cded2078-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:bdede396-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:bea4dc36-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fe8a7210-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:de8b0806-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:bec55790-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bec4c654-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:bec55b00-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:bed263ea-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "2b660c6928e1d830b4838bb435401e394bef5bcd0d86c72727989050badfa2539e08e7e5a1c8ba148b30cdc3bb8cf663b66524ccd09a91f0f1b2b6010c312f18"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29062/ses-1/func/sub-29062_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29062/ses-1/func/sub-29062_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:aed24234-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:bf6356fc-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ff5b6f50-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cf5c088e-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:bfd9c01c-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "67da1584a6b74c2102724f94851e0083f10157261101bdf67a184506f081aa4b61bcc7422d2e2a980435f06d976e30d7f11ac5b40d7da05198387d03f117e52f"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29066/ses-1/func/sub-29066_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29066/ses-1/func/sub-29066_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:cfd9b9dc-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c04746dc-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "75cbe793001e8b08f43a9d65ea93320384413b144d64de470b9db5b10a6e6ab94bb44f41c06803e1a4e42ff0f128af50db431165b324d0c3c9a1b24a2191aacb"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29068/ses-1/anat/sub-29068_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29068/ses-1/anat/sub-29068_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b0472a8a-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c0864918-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a085b23c-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b0864d0a-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c09be99e-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a085b23c-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b0864d0a-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c09c08e8-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "79c9eff9f5475b43124f912d475a1f831a69688d75aad7149f2338ebd6087d96f438332f24a2e0f58d64a5051e0f93e92ec219dcf3b02ed89b2c675935cd5393"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29069/ses-1/func/sub-29069_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29069/ses-1/func/sub-29069_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c09be99e-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c1fac274-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "8338d589b3ab6a547dd9e3f5f0ec5a94261226ba333e46974b177446a7a5b980fe73406ae93acbc79a26947dc9b38931c0a10acc5f526433f51c7860a269809b"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29073/ses-1/func/sub-29073_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29073/ses-1/func/sub-29073_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d1fabc5c-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c238aa62-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "feb279249f11576f4760be1d1d000a76338ced211366c9e133d50e643f3dfabfec05a9291fdadfea09e4ed15b4e5baba1b55c03ac41afa1c9f9dca10ab89b1f7"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29074/ses-1/anat/sub-29074_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29074/ses-1/anat/sub-29074_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a2388cda-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c24b7ab6-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d237f518-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c23890d6-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c28775f2-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a273bf1c-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f27458be-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c2a66f0c-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:e2a5dace-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a2a67312-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c2e66ecc-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c2e5de9e-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a2e672aa-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c330e25e-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "68c0d6781b7a331e289a5f3536522886dbfdf2693516ccefeeea17aea9fba8496ce9f725aef76ae1131c019d823ca0030289e6f201c3914bb6662f8405d638f9"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29078/ses-1/anat/sub-29078_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29078/ses-1/anat/sub-29078_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d330c670-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c3eac502-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "0d1760560f9df1ca7c99058b55bfbe6c8f131c4a7827e82ea9694f2f7c2f05d6869f5c740d268491d38c152120a681988bbbc047fc848cc60688790114ce6907"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29080/ses-1/func/sub-29080_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29080/ses-1/func/sub-29080_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d3ea8eac-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c4bc1698-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "6150c1991a4f07e2d9eefd0ac59a2bab2599c9e89d6f6b709125a602dd5f08ed89f92c22a5f11317e7774c6b8f6b8360e8fe3f5de99dcf4d89ae0e7cd51aca98"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29082/ses-1/anat/sub-29082_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29082/ses-1/anat/sub-29082_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b4bbed3a-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c4d460ae-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a4bb13d8-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e4bbf208-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c56c1ca0-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "e1eb2ee1207f74859e8542612fec3a101b638f66c35751c358027e658326bced326e5f05288f71791a22d32ab6a243f37df4466600472c6a3cd76f320e1eb10d"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29084/ses-1/anat/sub-29084_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29084/ses-1/anat/sub-29084_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d56c153e-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c5766d40-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d56b77c8-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c56c18e0-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c5b4a1be-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c5b3ba38-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a5b4a6f0-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c5b4cc02-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "c2857f60d12f87bf83f9dc8e057dbf2b753ec28abf3bacd43ec9d21c1e3a857a76fe10786b331b4eaef7816d4e9768d8c594607fc3141af312f9e0840789446b"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29085/ses-1/anat/sub-29085_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29085/ses-1/anat/sub-29085_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c5b4a1be-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c5c07e9e-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "79f129556521d9ced870c0e5a962543011a5501afb6eefa378f6b5e382eff1749b3614e58e771e197bfb3743ea8d5de1566581a5e7f50c267d98a22bc146ba43"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29085/ses-1/func/sub-29085_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29085/ses-1/func/sub-29085_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e5c05bd0-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c619ba68-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "2518f2ddd51eceac413dd160a784a9e8b41dcdb6f2661521dd3fba91dba6de090fbd5fe05c70832a2e554d70d8c245c2bf5bdc6f346aa8595538c41f0d9b8113"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29086/ses-1/anat/sub-29086_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29086/ses-1/anat/sub-29086_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f619b298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c62c0164-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d618f59c-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d619b69e-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c62c0916-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "82e5536c33cc2d8536f6a93aacbee9d7b0671ea8d54b78dd13cedf989785f2830de42646bc6edaef39904f76c133590086346bde3eee7dbb91cff6482d297c32"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29086/ses-1/func/sub-29086_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29086/ses-1/func/sub-29086_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c62c0164-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c71b1ad8-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "fe118099b2148ba5c6f97f17ae71ee4d8ca19402a09c843752f6e23f16c3394252b1e060ce54d87feddeff77f47881dea98f8739850aca2d33de77fcf3f99fd0"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29089/ses-1/func/sub-29089_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29089/ses-1/func/sub-29089_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f71b12e0-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c73b2b20-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d73a8594-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c73b2f1c-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c83aa53c-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a825ae34-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e826508c-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c83ac468-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "d1abf75cc8054c3d167f4b987c38219c7bc4027cc12841137e2918438bd5f0369140d3900be506b351122575cf8cdfc1229169a4eff289e2e5b76209212e8c47"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29093/ses-1/func/sub-29093_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29093/ses-1/func/sub-29093_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c83aa53c-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c8846488-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b883a5fc-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b8846802-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:cdedfcb4-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "659fea4f2b12cdb8e3443d4a200f7a5a5019bfbb58f07b2b756dddd6ab67f7c1b879e1645488865e4ad7c15b097b4d7fc4f34767fa20158eeffcdc8d5b3049c5"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29059/ses-1/anat/sub-29059_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29059/ses-1/anat/sub-29059_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:adeddf7c-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:ce8b0b8a-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "1d0bc179ebb652acbfdf0ed206a29635086373d598783c12f449a613a4973e5e6b7eb610f505e6cb9e03686a180b4db72533699afd760dbe3e6d181e83ea685f"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29060/ses-1/anat/sub-29060_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29060/ses-1/anat/sub-29060_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ae8b0356-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:cf045da0-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "56a423cb6fb3c8d1e175ef9ee28f78d4f40c384a493e610a5c73805c3af72a2454fff7c7d42b51358693beb14d730047e4bd9380e31c80bd0e5033bd3950b1b7"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29063/ses-1/anat/sub-29063_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29063/ses-1/anat/sub-29063_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:af045666-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:cfca9358-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "0a2d991f45da5f6c98b4993c6e23cc07eeda16a605c5f46a4bfbb64f667053b842d8e4c1b942cb8567441eecc218fcf564c73339a73cb01a16610f4df918d296"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29066/ses-1/anat/sub-29066_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29066/ses-1/anat/sub-29066_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:efca8ad4-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:cfd9b9dc-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:cfc9e5b6-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:bfca8f02-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d0056dfc-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b004cf46-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f0057270-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d131a95c-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "ef41956605c48a75093dcf072cd7f9b7fa3382fc15b9513c1940e32b09e8731481e583fed6fe5c9716fde1903146c44d9631f0f08e43e7635e1ceb8da2dad9c6"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29071/ses-1/anat/sub-29071_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29071/ses-1/anat/sub-29071_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b131a178-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d1e7ae82-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c1e7212e-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b1e7b1c0-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d1e7b580-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "af1a20342df2488bb86620f19d6914ea98bc91b833df3f653b023c3ceedb0db0df051c1847638d71a8f8022dbeab8cf7e97efbed88a15651fe3dd653c761c301"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29073/ses-1/anat/sub-29073_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29073/ses-1/anat/sub-29073_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d1e7ae82-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d1fabc5c-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c1e7212e-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b1e7b1c0-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d2e68916-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "d1cc7392f29c3f2a4808e928d1a22f065bdc3771d8cf8c5c467e73bcce8ffefe8d9c208f0d42f9dba627b8e95dd2be0c927a711f1381a28584c411bb161a924c"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29077/ses-1/anat/sub-29077_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29077/ses-1/anat/sub-29077_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c2e66ecc-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d2ee8d8c-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c2e5de9e-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a2e672aa-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d2eeac0e-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "75b9fb961f7c0e0d8a3bb29ef75ce6bbbc46418faf3197d75c3ddb9724ca4c07b7dd0faf57fd7e5cd62028c5bba681476f30286d60c8fcbbae9cce77845c82dc"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29077/ses-1/func/sub-29077_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29077/ses-1/func/sub-29077_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d2ee8d8c-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d330c670-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f3302b66-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a330ca26-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d37bdfde-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:e37b40ba-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f37be45c-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d38e0b1e-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "49d73c35bef7b1375b7ec088562de36c8f1dbb9822e5febfb0e79bce8a08cc206092d58552e9a7ad7a6441bfe329c563277e9bd6402382cd664b0d3a7cb6fba7"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29079/ses-1/func/sub-29079_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29079/ses-1/func/sub-29079_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f38e047a-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d3ea8eac-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b3d9eb42-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a3dae042-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d56c153e-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d56b77c8-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c56c18e0-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d576743e-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "3ead1e9d176b73832e642bff683bbc39c52963959fd9d053defad3e0427d19ead15847f37213dfd90b31779f9d972d885b2356e013571429884db19bd1be495c"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29084/ses-1/func/sub-29084_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29084/ses-1/func/sub-29084_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c5766d40-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d667f73c-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a667562e-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e667fa84-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d6ab1a58-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c6aa5190-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b6ab1f3a-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d6bf71ce-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c6aa5190-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b6ab1f3a-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d6bf9992-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "4b4a307bb1d34e5afaf9e74fb095002756b6afd4503b0aa53e9775add1e6b41f4c00949dadbacde5432c9d376f6b93089ceb7f7b985fe95e5801bcb4a4811dc3"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29088/ses-1/func/sub-29088_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29088/ses-1/func/sub-29088_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d6bf71ce-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d8040126-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b7e6ba9e-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c7e764d0-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d8266ed2-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "3c3d2713123ed453c30cb99c21a4ddeb9ba224b96116717ce91686cc98636c5c3fa44f2d184ce81515daf594d4517e521be492a366fb4ee68620337189f4d9e3"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29093/ses-1/anat/sub-29093_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29093/ses-1/anat/sub-29093_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e8264c18-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:dd792484-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "cdaf8f4a78438c18bcc28a6f684a44690f14b2d22f4c564b66903f835a91bcb8893f7bd2ca47573cf19b46c45626605674369ca37d397cffcdd6d863ad1bb235"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29057/ses-1/anat/sub-29057_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29057/ses-1/anat/sub-29057_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ad791a34-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:dd8d2b82-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fd784f64-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:bd791ee4-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ddb81aea-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ddb78a1c-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cdb81e00-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ddca1286-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ddb78a1c-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cdb81e00-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:df16339a-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "c3cc5691347bc405470f7cc65af690ddd72106d1bd0179b6857d6a7e4b9ac49d8b300e83cd75af9b3066d0032f82353d47d8ee6ac34780e0e790bacc3e2d7f8f"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29063/ses-1/func/sub-29063_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29063/ses-1/func/sub-29063_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ef162c9c-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:df5c04ce-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ff5b6f50-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cf5c088e-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:df637736-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "a2dc09eeac58cf2d8855bcb856b8dd23aa4f7f409011c6884893473c88faa87a170e7de24d7b26e7a3869cc8ec3d5bd78c490dcab0078cf944508c1cd7b4d52a"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29064/ses-1/func/sub-29064_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29064/ses-1/func/sub-29064_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:bf6356fc-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:df8341d8-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ff82a49e-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:df8344e4-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e00ca5e0-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "668c48ccd96dbf216043f2936adb9811742474607bada1eb4d8c2d8334dc9ccdce60bed52737f79a919b47e7653b6de55b4754604a3b10136f06a72481c080f2"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29067/ses-1/func/sub-29067_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29067/ses-1/func/sub-29067_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b00c85d8-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e0531f98-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "4d9f28cfa597b97bea6e4d856d1be7934c5399507b28a66e15c79ba4048a0ef446f57e417de8b10fb94ef7cc4fdb3a7fbb7fa49a07c49b38a1afa8f55f0dd346"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29068/ses-1/func/sub-29068_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29068/ses-1/func/sub-29068_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f052fff4-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e151c340-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "43f2a8e65d35301eec4c32e51e55adf4f20381f45206eedbeb60ee7f2953eb55af89204bcc83213037e526ecbc66b5a3da5a844bfb76a0ceebf3cb4244182978"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29071/ses-1/func/sub-29071_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29071/ses-1/func/sub-29071_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a151bce2-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e1b3a9de-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "d937794b233b81c68e95576980bce17959feb877213773c9cf4d2c229e82af76c9e6efa25ab1785ab2c77d610c0aa84a0bcc5edb30c92285b26a6a9efdd931ca"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29072/ses-1/func/sub-29072_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29072/ses-1/func/sub-29072_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b1b38936-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e24b9bfe-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "28e0983aaf54a089c821cede20cf6b23adecf5c3a2dd48d61866696eeab1f8a58cc7efe6e5bfcf36cbafad805f126669c44cecb949cd8c329ef29a2527f75ecb"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29074/ses-1/func/sub-29074_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29074/ses-1/func/sub-29074_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c24b7ab6-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e2a6770e-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "4f668c8aa5668136c2dd526bb27cd426b50215780c629d60fdcb06cc3d79d774ecf8a1dba33a2653186f52cb9ce3746a42fa239fa2af77e7bb8853418d113014"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29076/ses-1/anat/sub-29076_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29076/ses-1/anat/sub-29076_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c2a66f0c-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e2afcd68-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "04d76ed7fff3ca59158bc4189cefd983354fc05790f013aa2ff2d3101d32309fa88b25b10db03418accea12d5063bce836edf835fa521cec3bd0922db5ad8841"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29076/ses-1/func/sub-29076_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29076/ses-1/func/sub-29076_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b2afc6d8-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e37be894-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "9057a2f0bbf4c69c376a2256ac4f38fc0ed74474a723daad58e69bd10625585b922db0f3f741e83c00c6040fea715979e8b9db23a2dc1376f39790f4b16ae0eb"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29079/ses-1/anat/sub-29079_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29079/ses-1/anat/sub-29079_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d37bdfde-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e45e6200-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c45daf2c-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b45e64b2-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e47466e0-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c45daf2c-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b45e64b2-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e4748634-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "ddecde4c712d2aa7916d7622deec56af224d13a3bde9d6473bfecbead5b8ab98e6a7f9a0d4d5e6e9b71d21d77be0602f740aaf83fcbe14977e3b0a27a5347b17"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29081/ses-1/func/sub-29081_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29081/ses-1/func/sub-29081_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e47466e0-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e4d48624-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "c1447e90df28eae9540c08cab392b714dba45729e6e62cfef811d6c5aa1959a834e71c56a3afaabe15ef02b193047231d6b81e5d596b9f847bb3098dea38240e"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29082/ses-1/func/sub-29082_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29082/ses-1/func/sub-29082_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c4d460ae-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e5c05bd0-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c5b3ba38-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a5b4a6f0-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e73b495c-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "b78c80053ae993eafd56868f5ea76a05546c913f474eece6f2bde7267bceca7681e85cc1f367a13209240c760e0296937fab932b4ffa28a96cb66bce186d7e04"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29090/ses-1/anat/sub-29090_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29090/ses-1/anat/sub-29090_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c73b2b20-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e7a3b3a2-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "0297cf976bbdc027a759b6399ae7c1abb6ea0bf6d1519dec4bc9c91c80adb960c30b9a0a2cfa12ec770fedc320034800b82f90a931a6fcf72825436d67ec89b3"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29091/ses-1/anat/sub-29091_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29091/ses-1/anat/sub-29091_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f7a38d14-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e7b48c18-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c7a2d054-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e7a392aa-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e7b4b4b8-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "ee29f380aebaa7df7944de8223ad501156045756c656c02347b7f3caf601db9b8d050720b98890343924477120c38d657e2a3ea09df5e3f5298b8ebdf66d1e84"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29091/ses-1/func/sub-29091_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29091/ses-1/func/sub-29091_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e7b48c18-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e7e76160-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b7e6ba9e-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c7e764d0-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e80406bc-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "86840f528a36cafeb918957f01d7542ac146b47f54e36246a51c503b2fbbff41c0892271f0f4cd6b57edd6dd3fe1aa827a415ca02a4dac0b1e4a0a1dc023fdfa"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29092/ses-1/func/sub-29092_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29092/ses-1/func/sub-29092_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d8040126-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e8264c18-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a825ae34-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e826508c-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ee056ae8-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "13011dd47150657ef92a97bfe34acd9844b101e1e6b13820925e9127bbcf500decf70358f4e721567ca6967212757bdb96a82190a442cd3926e2d27b2b6ea8fb"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29059/ses-1/func/sub-29059_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29059/ses-1/func/sub-29059_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:be054a68-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:ef162c9c-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bf03c9c6-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:df0459e0-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ef8764d4-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ff82a49e-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:df8344e4-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:efca8ad4-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:cfc9e5b6-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:bfca8f02-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f052fff4-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a0466776-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c0472e40-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f0dab5d4-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "3099009f61a1085e338a8694aa8f138d38bfea7f3f0c89c7febdc1fcf85240c23a8dba7b2c43d6ef14ce12c23528e886e84131e27c73c8d8a41282393d3c65d5"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29070/ses-1/func/sub-29070_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29070/ses-1/func/sub-29070_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a0da9298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f34547da-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "6255ecdbda93d8b774d941f280f3c568a68ac2b0ad15a435b0b1ead07e631c547b3f5cd4d361483d7342acdc8c191d842cb9550cfc3154968b97c5b03d7eaff2"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29078/ses-1/func/sub-29078_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29078/ses-1/func/sub-29078_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a3452782-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f38e047a-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:e37b40ba-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f37be45c-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f619b298-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d618f59c-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d619b69e-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f66e79cc-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a667562e-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e667fa84-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f6ab3eb6-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "2f8b712b4365dac78369f8ea9bc98b3e61c1fbb6a6f546ff17aecd84634f78538d9acd4b40e80575940f94254f08e6b4a6372052e7cb313958fbc498e4b7b403"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29088/ses-1/anat/sub-29088_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29088/ses-1/anat/sub-29088_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d6ab1a58-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f71b12e0-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f709ed6c-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f70a8d8a-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f7a38d14-9986-11f0-bfe0-303ea704ad38 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c7a2d054-9986-11f0-bfe0-303ea704ad38 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e7a392aa-9986-11f0-bfe0-303ea704ad38 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f8a1511a-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "2e0a63eff44615cc9adee0ed649c632075929ed68406e5e9f84574785ba1acdedb5ee4daf8b2fc41fb7334c1491682d8fc7d33fc86aff2fae835d6a16cd36e85"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29094/ses-1/func/sub-29094_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29094/ses-1/func/sub-29094_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a8a130a4-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:fdb82148-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "9e4599ff2da199d4883d3c5866481acbcbf398a15598895edaac4cc66992df22973d8350706eb8f80fb3915acc2fca934ec90e7312e24109cbeca85e613f1401"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29058/ses-1/anat/sub-29058_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29058/ses-1/anat/sub-29058_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ddb81aea-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:fea4e30c-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "4a0561a9f746eabb95cef6b81f67ad0fa692920b2b1ea71f33239b7e6d63e6623a9a4e0985595322543c7b9c2af69ca8e07028029220938280100dafbb2d0a91"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29060/ses-1/func/sub-29060_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29060/ses-1/func/sub-29060_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:bea4dc36-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:ff835c54-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "Shortest"^^xsd:string ;
+    bids:FlipAngle "8"^^xsd:int ;
+    crypto:sha512 "bacb0ef9d30e5b45497e90ce73692210b28a0916129f409a83f34554c635868e575a54b005a5037d4f6ca84fdb54e6d1a359529832d2b30cd535c3f4e9ad4cbd"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1.15e+00 ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime "0.0084"^^xsd:string ;
+    dicom:ScanningSequence "3D TFE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-29065/ses-1/anat/sub-29065_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29065/ses-1/anat/sub-29065_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:df8341d8-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:ff87852c-9986-11f0-bfe0-303ea704ad38 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "90"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "1.95,1.9,1.85,1.8,1.75,1.7,1.65,1.6,1.55,1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5,0.45,0.4,0.35,0.3,0.25,0.2,0.15,0.1,0.05,0.0"^^xsd:string ;
+    crypto:sha512 "ab2d429480e36071dbc7d9a99934135da92988a7d154773815c7926d5f3008dec55003b612ed9320296a0511a6457cadbb1ef5c0ae34e0da2a9c152dcb5acfd1"^^xsd:string ;
+    dicom:AcquisitionMatrix "80x77"^^xsd:string ;
+    dicom:Manufacturer "Philips"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "32 Chan"^^xsd:string ;
+    dicom:RepetitionTime 2e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-29065/ses-1/func/sub-29065_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-ETHZ_1/sub-29065/ses-1/func/sub-29065_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ef8764d4-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a0466776-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a085b23c-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a0c9d714-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29070"^^xsd:string .
+
+niiri:a273bf1c-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a2a67312-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29076"^^xsd:string .
+
+niiri:a2e672aa-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29077"^^xsd:string .
+
+niiri:a330ca26-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29078"^^xsd:string .
+
+niiri:a3dae042-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29080"^^xsd:string .
+
+niiri:a4bb13d8-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a50b0492-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a5b4a6f0-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29085"^^xsd:string .
+
+niiri:a667562e-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:a825ae34-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b004cf46-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b0864d0a-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29069"^^xsd:string .
+
+niiri:b1e7b1c0-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29073"^^xsd:string .
+
+niiri:b3d9eb42-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b45e64b2-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29081"^^xsd:string .
+
+niiri:b6ab1f3a-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29088"^^xsd:string .
+
+niiri:b7e6ba9e-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b883a5fc-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:b8846802-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29094"^^xsd:string .
+
+niiri:bd791ee4-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29057"^^xsd:string .
+
+niiri:bdede396-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29059"^^xsd:string .
+
+niiri:bec4c654-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:bec55b00-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29062"^^xsd:string .
+
+niiri:bf03c9c6-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:bfca8f02-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29066"^^xsd:string .
+
+niiri:c0472e40-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29068"^^xsd:string .
+
+niiri:c1310678-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c1e7212e-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c23890d6-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29074"^^xsd:string .
+
+niiri:c2e5de9e-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c45daf2c-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c56c18e0-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29084"^^xsd:string .
+
+niiri:c5b3ba38-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c6aa5190-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c73b2f1c-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29090"^^xsd:string .
+
+niiri:c7a2d054-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:c7e764d0-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29092"^^xsd:string .
+
+niiri:cdb81e00-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29058"^^xsd:string .
+
+niiri:cded2078-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:cf5c088e-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29064"^^xsd:string .
+
+niiri:cfc9e5b6-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d237f518-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d50bdaac-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29083"^^xsd:string .
+
+niiri:d56b77c8-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d618f59c-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:d619b69e-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29086"^^xsd:string .
+
+niiri:d73a8594-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:ddb78a1c-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:de8b0806-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29060"^^xsd:string .
+
+niiri:df0459e0-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29063"^^xsd:string .
+
+niiri:df8344e4-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29065"^^xsd:string .
+
+niiri:e2a5dace-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e37b40ba-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:e4bbf208-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29082"^^xsd:string .
+
+niiri:e667fa84-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29087"^^xsd:string .
+
+niiri:e7a392aa-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29091"^^xsd:string .
+
+niiri:e826508c-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29093"^^xsd:string .
+
+niiri:f0057270-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29067"^^xsd:string .
+
+niiri:f0c93ffc-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f131a588-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29071"^^xsd:string .
+
+niiri:f19ed770-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f19f7acc-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29072"^^xsd:string .
+
+niiri:f27458be-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29075"^^xsd:string .
+
+niiri:f3302b66-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f37be45c-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29079"^^xsd:string .
+
+niiri:f709ed6c-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:f70a8d8a-9986-11f0-bfe0-303ea704ad38 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "29089"^^xsd:string .
+
+niiri:fd784f64-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:fe8a7210-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:ff5b6f50-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:ff82a49e-9986-11f0-bfe0-303ea704ad38 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 .
+
+niiri:dcbbe298-9986-11f0-bfe0-303ea704ad38 a nidm:Project,
+        prov:Activity ;
+    dcmitype:title "ABIDE2 - ABIDEII-ETHZ_1"^^xsd:string .
+
