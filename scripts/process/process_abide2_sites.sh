@@ -7,9 +7,9 @@ set -euo pipefail
 
 # Configuration
 BASE_DIR="/orcd/data/satra/002/datasets/simple2_datalad/abide2"
-JSON_MAP="$(pwd)/data/mappings/abide2_phenotypic_vars_to_terms.json"
-OUTPUT_DIR="$(pwd)/nidm_outputs/abide2_new"
-LOG_DIR="$(pwd)/logs/abide2_new"
+JSON_MAP="$(pwd)/data/mappings/abide2_phenotypic_vars_to_terms_dbk.json"
+OUTPUT_DIR="$(pwd)/nidm_outputs/abide2_dbk"
+LOG_DIR="$(pwd)/logs/abide2_dbk"
 
 # Create directories
 mkdir -p "$OUTPUT_DIR" "$LOG_DIR"
